@@ -1,0 +1,15 @@
+# Where downloaded datasets live (git-ignored).
+data_dir: data/raw
+
+mvtec:
+  # Subset used throughout the project. Each category is downloaded separately,
+  # so we only pull what we need instead of the full 4.9 GB archive.
+  categories:
+    - bottle
+    - metal_nut
+    - screw
+    - transistor
+    - cable
+
+cmapss:
+  subsets: [FD001, FD002, FD003, FD004]

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Data and model artefacts are never committed - use scripts/ to download them
+data/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+mlruns/
+mlartifacts/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
